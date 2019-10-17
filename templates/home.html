@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1>CS510 Literature Search Engine</h1>
+    </div>
+    <form method="POST">
+        <div class="input-group md-form form-sm form-1 pl-0">
+            <div class="input-group-prepend">
+                <span class="input-group-text purple lighten-3" id="basic-text1">
+                    <i class="fa fa-search"></i>
+                </span>
+            </div>
+            <input name="query" class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+        </div>
+	</form>
+    <br>
+    {% if query is not none and query|length > 0 %}
+        <p>{{ query }}</p>
+    {% endif %}
+{% endblock %}
