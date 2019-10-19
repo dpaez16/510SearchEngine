@@ -5,7 +5,7 @@ app = Flask(__name__)
 fileIDX = open('files.txt', 'r').readlines()
 
 def createLink(title):
-    return "https://www.aclweb.org/anthology/{}.pdf".format(title.split('.tei.xml'))
+    return "https://www.aclweb.org/anthology/{}.pdf".format(title.split('.tei.xml')[0])
 
 def getSearchResults():
     searchResultsFile = open('searchResults.txt', 'r')
