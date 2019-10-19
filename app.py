@@ -1,11 +1,8 @@
 from flask import Flask, request, render_template, redirect, url_for, send_from_directory
-from search import *
 import os
 
 app = Flask(__name__)
 fileIDX = open('files.txt', 'r').readlines()
-idx = metapy.index.make_inverted_index('config.toml')
-searchResults = []
 
 @app.route("/", methods=["GET", "POST"])
 def home_page():
@@ -24,11 +21,13 @@ def search(query):
             return redirect(url_for('home_page'))
         return redirect(url_for('search', query=query)) # GET request
     # process query here
+    os.system('python3 search.py \"{}\" {} -f'.format(query, str(10)))
+    searchResults = open('searchResults.txt', 'r').readlines()
+    searchResults = [fileIDX[int(idx.strip())].strip() for idx in searchResults]
+    searchResults = ["https://www.aclweb.org/anthology/{}.pdf".format(title.split('.tei.xml')[0])
+    for title in searchResults]
     return render_template('home.html', searchResults=searchResults)
 
 
 if __name__ == "__main__":
-    searchResults = performSearch("mining", 20, idx)
-    print("done with performing search")
-    searchResults = [fileIDX[t[0]].strip() for t in searchResults]
     app.run(debug=True)
