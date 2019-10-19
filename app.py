@@ -4,6 +4,21 @@ import os
 app = Flask(__name__)
 fileIDX = open('files.txt', 'r').readlines()
 
+def createLink(title):
+    return "https://www.aclweb.org/anthology/{}.pdf".format(title.split('.tei.xml'))
+
+def getSearchResults():
+    searchResultsFile = open('searchResults.txt', 'r')
+    IDXs = searchResultsFile.readlines()
+    IDXs = [int(idx.strip()) for idx in IDXs]
+    searchResults = [fileIDX[idx].strip() for idx in IDXs]
+    searchResults = [createLink(fileName) for fileName in searchResults]
+    searchResultsFile.close()
+    return searchResults
+
+def logClick(query, link, R):
+    print("({}, {}, {})".format(query, link, R))
+
 @app.route("/", methods=["GET", "POST"])
 def home_page():
     if request.method == "POST":
@@ -22,11 +37,11 @@ def search(query):
         return redirect(url_for('search', query=query)) # GET request
     # process query here
     os.system('python3 search.py \"{}\" {} -f'.format(query, str(10)))
-    searchResults = open('searchResults.txt', 'r').readlines()
-    searchResults = [fileIDX[int(idx.strip())].strip() for idx in searchResults]
-    searchResults = ["https://www.aclweb.org/anthology/{}.pdf".format(title.split('.tei.xml')[0])
-    for title in searchResults]
-    return render_template('home.html', searchResults=searchResults)
+    searchResults = getSearchResults()
+    return render_template('home.html', 
+                            searchResults=searchResults, 
+                            query=query,
+                            logClick=logClick)
 
 
 if __name__ == "__main__":

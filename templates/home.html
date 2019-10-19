@@ -15,9 +15,17 @@
         </div>
 	</form>
     <br>
+    {% if query is not none and query|length > 0%}
+    <h3>Search results for '{{ query }}'</h3>
+    <br>
+    {% endif %}
     {% if searchResults is not none %}
         {% for searchResult in searchResults %}
-            <p>{{ searchResult }}</p>
+            <a  href="{{ searchResult }}"
+                onclick="{{ logClick(query, searchResult, 1) }}">
+                {{ searchResult }}
+            </a>
+            <br>
         {% endfor %}
     {% endif %}
 {% endblock %}
