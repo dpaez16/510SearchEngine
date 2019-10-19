@@ -15,7 +15,9 @@
         </div>
 	</form>
     <br>
-    {% if query is not none and query|length > 0 %}
-        <p>{{ query }}</p>
+    {% if searchResults is not none %}
+        {% for searchResult in searchResults %}
+            <p>{{ searchResult }}</p>
+        {% endfor %}
     {% endif %}
 {% endblock %}
