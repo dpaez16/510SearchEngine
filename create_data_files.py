@@ -29,3 +29,6 @@ for xml_file in tqdm(xml_files):
 
 f.close()
 dat_file.close()
+
+# created inverted index files
+os.system('python3 search.py \"{}\" {} -f'.format('', str(1)))
