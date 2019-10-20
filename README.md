@@ -13,4 +13,7 @@ Finally, run the web app with:
 ```
 python3 app.py
 ```
-It should run on ```localhost:5000```.
+It should run on ```localhost:5000```.  
+  
+  
+Note: ```relevance_judgements.log``` is what the web app will use to log user clicks/doesn't click to (as relevance judgements).
