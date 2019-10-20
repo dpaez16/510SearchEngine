@@ -32,3 +32,6 @@ dat_file.close()
 
 # created inverted index files
 os.system('python3 search.py \"{}\" {} -f'.format('', str(1)))
+
+# we don't need the .dat file anymore
+os.remove(os.path.join(os.getcwd(), "formatteddataset", "formatteddataset.dat"))
