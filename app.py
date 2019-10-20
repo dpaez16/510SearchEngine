@@ -32,7 +32,7 @@ def getSearchResults(query):
         fileName, title = splitted[:2]
         link = createLink(fileName)
         title = link if len(title) == 0 else title
-        searchResults.append((title, content, idx))
+        searchResults.append((link, title, content, idx))
         logRelevance(query, idx, 0)
     searchResultsFile.close()
     os.remove('searchResults.txt')
@@ -60,8 +60,7 @@ def search(query):
     searchResults = getSearchResults(query)
     return render_template('home.html', 
                             searchResults=searchResults, 
-                            query=query,
-                            logRelevance=logRelevance)
+                            query=query)
 
 
 @app.route("/query=<string:query>,paper=<int:paperIdx>")

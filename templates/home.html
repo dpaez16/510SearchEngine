@@ -21,11 +21,10 @@
     {% endif %}
     {% if searchResults is not none %}
         {% for searchResult in searchResults %}
-            <a  href="{{ searchResult }}"
-                onclick="{{ logClick(query, searchResult, 1) }}">
-                {{ searchResult }}
+            <a  href="/query={{ query }},paper={{ searchResult[3] }}">
+                {{ searchResult[1] }}
             </a>
-            <br>
+            <p>{{ searchResult[2] }}</p>
         {% endfor %}
     {% endif %}
 {% endblock %}
