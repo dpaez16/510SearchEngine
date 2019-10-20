@@ -1,15 +1,15 @@
+from tqdm import tqdm
 import os
 import re
-from tqdm import tqdm
 
 f = open('files.txt', 'w+')
-dat_file = open('formatteddataset.dat', 'w+')
+dat_file = open('formatteddataset/formatteddataset.dat', 'w+')
 
 directory = "./grobid_processed"
 title_directory = "./paper_fields/papers_to_index"
 xml_files = os.listdir(directory)
 
-for xml_file in tqdm(xml_files):
+for xml_file in tqdm(xml_files, desc="Processing XML files"):
     # read in raw xml file
     f_ = open(os.path.join(directory, xml_file))
     lines = f_.read()
