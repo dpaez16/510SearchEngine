@@ -1,3 +1,6 @@
 *.tgz
 searchResults.txt
 *.dat
+Assignment_initial_datasets/
+grobid_processed/
+paper_fields/
