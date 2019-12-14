@@ -1,0 +1,100 @@
+income pooling
+eigenvalues
+eigenvectors
+linear algebra
+matrix theory
+probability theory
+statistics
+time-series
+signal processing
+machine learning
+deep learning
+neural networks
+convolutional networks
+graph theory
+linear programming
+nonlinear programming
+physics
+optics
+metaphyics
+magentism
+electrochemistry
+biochemistry
+hydrogen bonding
+CO2
+CH4
+momentum
+psychology
+autism
+ADHD
+asperger's
+social anxiety
+mechanics
+motion
+complex variables
+marginal cost
+supply chain
+computer science
+biology
+mitochondria
+vacuole
+obesity
+childhood asthma
+crystal structure
+partial differential equations
+ordinary differential equations
+PET scan
+positron emission tomography
+principle components analysis
+Alzheimer's
+cerebral cortex
+decision making
+mass shooting
+electrodes
+Cobalt
+methane
+type 2 diabetes
+criminal law
+social justice
+taxonomy
+pregnancy
+ethical thinking
+thermal energy
+tsunami
+earthquakes
+information theory
+information retrieval
+search engines
+data mining
+genetic algorithms
+drug abuse
+child abuse
+addiction
+cancer
+tumors
+education
+mental health
+depression
+social network
+taxation
+agriculture
+gravitational waves
+gravitational lensing
+star formation
+distributed systems
+high performance computing
+gaussian mixture models
+sports
+numerical analysis
+robotics
+fluid mechanics
+biofuel
+biodiesel
+proteins
+heart disease
+blockchain
+cryptocurrency
+GPU
+speech recognition
+hidden markov model
+monte-carlo

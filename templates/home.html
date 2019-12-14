@@ -2,7 +2,7 @@
 
 {% block body %}
     <div class="jumbotron text-center">
-        <h1>CS510 Literature Search Engine</h1>
+        <h1>Citation Generator Search Engine</h1>
     </div>
     <form method="POST">
         <div class="input-group md-form form-sm form-1 pl-0">
@@ -13,18 +13,24 @@
             </div>
             <input name="query" class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
         </div>
-	</form>
+    </form>
+    <br>
+    <a  class='btn btn-primary' 
+        href="/inputPaper">
+            Input Document
+    </a>
+    <br>
     <br>
     {% if query is not none and query|length > 0%}
-    <h3>Search results for '{{ query }}'</h3>
+    <h3><u>Closely Related Documents</u></h3>
     <br>
     {% endif %}
     {% if searchResults is not none %}
         {% for searchResult in searchResults %}
-            <a  href="/query={{ query }},paper={{ searchResult[3] }}">
-                {{ searchResult[1] }}
+            <a  href="/query={{ query }},paper={{ searchResult[2] }}">
+                <u>{{ searchResult[0] }}</u>
             </a>
-            <p>{{ searchResult[2] }}</p>
+            <p>{{ searchResult[1] }}</p>
         {% endfor %}
     {% endif %}
 {% endblock %}

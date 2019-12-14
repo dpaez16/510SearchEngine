@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1>Citation Generator Search Engine</h1>
+    </div>
+    <br>
+    <h2>{{ title }}</h2>
+    <br>
+    <p>
+        Page URL: &nbsp; <a href={{url}}><u>{{url}}</u></a>
+    </p>
+    <br>
+    {% if authors is not none and authors|length > 0%}
+        <h4><u>Relevant Authors</u>:</h4>
+        <ul>
+        {% for author in authors %}
+            <li>{{ author }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

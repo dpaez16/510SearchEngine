@@ -1,10 +1,15 @@
 from flask import Flask, request, render_template, redirect, url_for, send_from_directory
 import logging
 from logging import handlers
+from create_sentences import split_into_sentences
+import pymongo
 import os
 
 app = Flask(__name__)
-fileIDX = open('files.txt', 'r').readlines()
+
+# MongoDB setup
+client = pymongo.MongoClient("mongodb+srv://admin:lgV3ugTp2Rttw6Dz@corpus-fzvdf.mongodb.net/test?retryWrites=true&w=majority")
+corpus = client['Corpus']
 
 # logging config
 logger = logging.getLogger('relevance_judgements')
@@ -15,10 +20,31 @@ logger.addHandler(handler)
 
 def logRelevance(query, idx, R):
     logger.debug("({}, {}, {})".format(query, idx, R))
-    
 
-def createLink(fileName):
-    return "https://www.aclweb.org/anthology/{}.pdf".format(fileName.split('.tei.xml')[0])
+
+def processInput(text_input):
+    doc = text_input.replace('\r', '')
+    doc = doc.replace('\n', ' ')
+    if doc[-1] not in ['.', '!', '?']:
+        doc = doc + '.'
+    sentences = split_into_sentences(doc)
+    return sentences
+
+
+def getDocTitleURL(db, docID):
+    d = db.find_one({"_id": docID})
+    if d is None:
+        return None, None
+    else:
+        return d['title'], d['url']
+
+
+def getDocAuthors(db, docID):
+    d = db.find_one({"_id": docID})
+    if d is None:
+        return None
+    else:
+        return d['authors']
 
 
 def getSearchResults(query):
@@ -26,14 +52,16 @@ def getSearchResults(query):
     rawSearchResults = searchResultsFile.readlines()
     searchResults = []
     for rawSearchResult in rawSearchResults:
-        idx, content = rawSearchResult.strip().split('\t')
-        idx = int(idx)
-        splitted = fileIDX[idx].strip().split('\t') + [""]
-        fileName, title = splitted[:2]
-        link = createLink(fileName)
-        title = link if len(title) == 0 else title
-        searchResults.append((link, title, content, idx))
-        logRelevance(query, idx, 0)
+        docIdx, doc = rawSearchResult.strip().split('----------')
+        docIdx = int(docIdx)
+        title, url = getDocTitleURL(corpus.test, docIdx)
+        if title is None or url is None:
+            continue
+        else:
+            title = " ".join(map(lambda s: s.capitalize(), title.split()))
+            searchResults.append((title, doc, docIdx))
+            logRelevance(query, docIdx, 0)
+    
     searchResultsFile.close()
     os.remove('searchResults.txt')
     return searchResults
@@ -66,9 +94,28 @@ def search(query):
 @app.route("/query=<string:query>,paper=<int:paperIdx>")
 def goToPaper(query, paperIdx):
     logRelevance(query, paperIdx, 1)
-    fileName = fileIDX[paperIdx].strip().split('\t')[0]
-    link = createLink(fileName)
-    return redirect(link)
+    title, url = getDocTitleURL(corpus.test, paperIdx)
+    authors = getDocAuthors(corpus.test2, paperIdx)
+    if title is None or url is None or authors is None:
+        error = "Page does not exist!"
+        return render_template('error.html', error=error)
+    else:
+        title = " ".join(map(lambda s: s.capitalize(), title.split()))
+        return render_template('paper.html',
+                                title=title,
+                                url=url,
+                                authors=authors)
+
+
+@app.route("/inputPaper", methods=['GET', 'POST'])
+def inputPaper():
+    if request.method == 'POST':
+        text_input = request.form['text_input']
+        sentences = processInput(text_input)
+        print(sentences)
+        return redirect(url_for('home_page'))
+    else:
+        return render_template('input_paper.html')
 
 
 if __name__ == "__main__":
