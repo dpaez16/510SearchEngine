@@ -132,7 +132,9 @@ def inputPaper():
                                 text_input=text_input,
                                 query=text_input)
     else:
-        return render_template('input_paper.html')
+        return render_template('input_paper.html',
+                                searchResults=None,
+                                text_input='')
 
 
 if __name__ == "__main__":
