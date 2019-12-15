@@ -279,3 +279,619 @@
 (dijkstra's algorithm is a graph algorithm, 78850, 0)
 (dijkstra's algorithm is a graph algorithm, 79949, 0)
 (dijkstra's algorithm is a graph algorithm, 110196, 0)
+(monte carlo, 45403, 0)
+(monte carlo, 45095, 0)
+(monte carlo, 65692, 0)
+(monte carlo, 83936, 0)
+(monte carlo, 80620, 0)
+(monte carlo, 177834, 0)
+(monte carlo, 41457, 0)
+(monte carlo, 173831, 0)
+(monte carlo, 56708, 0)
+(monte carlo, 56882, 0)
+(monte carlo, 45403, 1)
+(monte carlo, 65692, 1)
+(monte carlo, 65692, 1)
+(geology, 1502, 0)
+(geology, 844, 0)
+(geology, 4311, 0)
+(geology, 2370, 0)
+(geology, 93091, 0)
+(geology, 3957, 0)
+(geology, 3785, 0)
+(geology, 54400, 0)
+(geology, 4526, 0)
+(geology, 45197, 0)
+(geology, 93091, 1)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(,paper=93378, 173891, 0)
+(,paper=93378, 68781, 0)
+(,paper=93378, 76018, 0)
+(,paper=93378, 38870, 0)
+(,paper=93378, 39704, 0)
+(,paper=93378, 174218, 0)
+(,paper=93378, 173559, 0)
+(,paper=93378, 198909, 0)
+(,paper=93378, 173867, 0)
+(,paper=93378, 64026, 0)
+(,paper=93378, 173891, 0)
+(,paper=93378, 68781, 0)
+(,paper=93378, 76018, 0)
+(,paper=93378, 38870, 0)
+(,paper=93378, 39704, 0)
+(,paper=93378, 174218, 0)
+(,paper=93378, 173559, 0)
+(,paper=93378, 198909, 0)
+(,paper=93378, 173867, 0)
+(,paper=93378, 64026, 0)
+(,paper=93378, 173891, 0)
+(,paper=93378, 68781, 0)
+(,paper=93378, 76018, 0)
+(,paper=93378, 38870, 0)
+(,paper=93378, 39704, 0)
+(,paper=93378, 174218, 0)
+(,paper=93378, 173559, 0)
+(,paper=93378, 198909, 0)
+(,paper=93378, 173867, 0)
+(,paper=93378, 64026, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(eigenvectors, 42752, 0)
+(eigenvectors, 76537, 0)
+(eigenvectors, 173973, 0)
+(eigenvectors, 166176, 0)
+(eigenvectors, 76504, 0)
+(eigenvectors, 76514, 0)
+(eigenvectors, 50931, 0)
+(eigenvectors, 77161, 0)
+(eigenvectors, 93099, 0)
+(eigenvectors, 7552, 0)
+(eigenvectors, 76537, 1)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. , 93378, 1)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 15962, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 759, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 1122, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 75564, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 1502, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2211, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 64542, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2369, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 15962, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 759, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 1122, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 75564, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 1502, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2211, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 64542, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+, 2369, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 2018, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 15962, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 759, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 1122, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 75564, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 1502, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 264, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 2211, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 64542, 0)
+(                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            , 2369, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 93378, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 5130, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 264, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51044, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2018, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51462, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 4938, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 2880, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 51056, 0)
+(Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time., 75714, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 155743, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 154921, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 15962, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 52844, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 1428, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 50802, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 3567, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 64542, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 759, 0)
+(Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon., 159046, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 2018, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 1122, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17224, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17617, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17557, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17061, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17232, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17556, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17632, 0)
+(Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science., 17494, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 2018, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 15962, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 759, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 1122, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 75564, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 1502, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 264, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 2211, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 64542, 0)
+(                                Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+Geology can also include the study of the solid features of any terrestrial planet or natural satellite such as Mars or the Moon.
+Modern geology significantly overlaps all other earth sciences, including hydrology and the atmospheric sciences, and so is treated as one major aspect of integrated earth system science and planetary science. 
+
+            
+            , 2369, 0)

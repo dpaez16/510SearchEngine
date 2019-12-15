@@ -11,11 +11,24 @@
             <label for="text_input">Text Input:</label>
             <textarea
                     class="form-control"
-                    rows="3"
+                    rows="10"
                     name="text_input"
-                    id="text_input"></textarea>
+                    id="text_input">
+                {{ text_input }}
+            </textarea>
         </div>
         <br>
         <input type="submit" class='btn btn-primary' value="Submit Document"/>
     </form>
+    <br>
+    {% if searchResults is not none %}
+        <h3><u>Closely Related Documents</u></h3>
+        <br>
+        {% for searchResult in searchResults %}
+            <a  href="/query={{ query }},paper={{ searchResult[2] }}">
+                <u>{{ searchResult[0] }}</u>
+            </a>
+            <p>{{ searchResult[1] }}</p>
+        {% endfor %}
+    {% endif %}
 {% endblock %}

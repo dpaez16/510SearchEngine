@@ -12,14 +12,14 @@ def performSearch(q, number_of_results, ranker):
         docIdx = result[0]
         content = idx.metadata(docIdx).get('content')
         content = "{}...".format(content[:250])
-        searchResults.append((docIdx, content))
+        searchResults.append((docIdx, content, result[1]))
     return searchResults
 
 ranker = metapy.index.OkapiBM25(k1=1.2,b=0.75,k3=500)
 
 searchResults = performSearch(sys.argv[1], int(sys.argv[2]), ranker)
 searchResultsFile = open('searchResults.txt', 'w+')
-for docIdx, doc in searchResults:
-    searchResultsFile.write("{}----------{}\n".format(docIdx, doc))
+for docIdx, doc, score in searchResults:
+    searchResultsFile.write("{}----------{}----------{}\n".format(docIdx, doc, score))
 
 searchResultsFile.close()

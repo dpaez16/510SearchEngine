@@ -7,6 +7,8 @@ import os
 
 app = Flask(__name__)
 
+USING_SENTENCES = True
+
 # MongoDB setup
 client = pymongo.MongoClient("mongodb+srv://admin:lgV3ugTp2Rttw6Dz@corpus-fzvdf.mongodb.net/test?retryWrites=true&w=majority")
 corpus = client['Corpus']
@@ -52,14 +54,15 @@ def getSearchResults(query):
     rawSearchResults = searchResultsFile.readlines()
     searchResults = []
     for rawSearchResult in rawSearchResults:
-        docIdx, doc = rawSearchResult.strip().split('----------')
+        docIdx, doc, score = rawSearchResult.strip().split('----------')
         docIdx = int(docIdx)
+        score = float(score)
         title, url = getDocTitleURL(corpus.test, docIdx)
         if title is None or url is None:
             continue
         else:
             title = " ".join(map(lambda s: s.capitalize(), title.split()))
-            searchResults.append((title, doc, docIdx))
+            searchResults.append((title, doc, docIdx, score))
             logRelevance(query, docIdx, 0)
     
     searchResultsFile.close()
@@ -111,9 +114,23 @@ def goToPaper(query, paperIdx):
 def inputPaper():
     if request.method == 'POST':
         text_input = request.form['text_input']
-        sentences = processInput(text_input)
-        print(sentences)
-        return redirect(url_for('home_page'))
+        if USING_SENTENCES:
+            # splitting into sentences
+            sentences = processInput(text_input)
+            results = []
+            for sentence in sentences:
+                os.system('python3 search.py \"{}\" {} -f'.format(sentence, str(10)))
+                searchResults = getSearchResults(sentence)
+                results += searchResults
+        else:
+            # using entire doc as query
+            os.system('python3 search.py \"{}\" {} -f'.format(text_input, str(10)))
+            results = getSearchResults(text_input)
+        results = sorted(results, key=lambda x: x[-1])
+        return render_template('input_paper.html', 
+                                searchResults=results,
+                                text_input=text_input,
+                                query=text_input)
     else:
         return render_template('input_paper.html')
 
