@@ -4,28 +4,24 @@
     <div class="jumbotron text-center">
         <h1>Citation Generator Search Engine</h1>
     </div>
-    <form method="POST">
-        <div class="input-group md-form form-sm form-1 pl-0">
-            <div class="input-group-prepend">
-                <span class="input-group-text purple lighten-3" id="basic-text1">
-                    <i class="fa fa-search"></i>
-                </span>
-            </div>
-            <input name="query" class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+    <br>
+    <br>
+    <form method = "POST">
+        <div class="form-group">
+            <label for="text_input">Text Input:</label>
+            <textarea
+                    class="form-control"
+                    rows="10"
+                    name="text_input"
+                    id="text_input">{{ text_input }}</textarea>
         </div>
+        <br>
+        <input type="submit" class='btn btn-primary' value="Submit Document"/>
     </form>
     <br>
-    <a  class='btn btn-primary' 
-        href="/inputPaper">
-            Input Document
-    </a>
-    <br>
-    <br>
-    {% if query is not none and query|length > 0%}
-    <h3><u>Related Documents</u></h3>
-    <br>
-    {% endif %}
     {% if searchResults is not none %}
+        <h3><u>Related Documents</u></h3>
+        <br>
         {% for searchResult in searchResults %}
             <a  href="/query={{ query }},paper={{ searchResult[2] }}">
                 <u>{{ searchResult[0] }}</u>

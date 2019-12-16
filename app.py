@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for, send_from_directory
+from flask import Flask, request, render_template, redirect, url_for
 import logging
 from logging import handlers
 from create_sentences import split_into_sentences
@@ -70,30 +70,6 @@ def getSearchResults(query):
     return searchResults
 
 
-@app.route("/", methods=["GET", "POST"])
-def home_page():
-    if request.method == "POST":
-        query = request.form['query']
-        if len(query) != 0:
-            return redirect(url_for('search', query=query), code=307) # POST request
-    return render_template('home.html')
-
-
-@app.route("/query=<string:query>", methods=["GET", "POST"])
-def search(query):
-    if request.method == "POST":
-        query = request.form["query"]
-        if len(query) == 0:
-            return redirect(url_for('home_page'))
-        return redirect(url_for('search', query=query)) # GET request
-    # process query here
-    os.system('python3 search.py \"{}\" {} -f'.format(query, str(10)))
-    searchResults = getSearchResults(query)
-    return render_template('home.html', 
-                            searchResults=searchResults, 
-                            query=query)
-
-
 @app.route("/query=<string:query>,paper=<int:paperIdx>")
 def goToPaper(query, paperIdx):
     logRelevance(query, paperIdx, 1)
@@ -110,10 +86,12 @@ def goToPaper(query, paperIdx):
                                 authors=authors)
 
 
-@app.route("/inputPaper", methods=['GET', 'POST'])
-def inputPaper():
+@app.route("/", methods=['GET', 'POST'])
+def home():
     if request.method == 'POST':
         text_input = request.form['text_input']
+        if len(text_input) == 0:
+            return redirect(url_for('home'))
         if USING_SENTENCES:
             # splitting into sentences
             sentences = processInput(text_input)
@@ -127,12 +105,12 @@ def inputPaper():
             os.system('python3 search.py \"{}\" {} -f'.format(text_input, str(10)))
             results = getSearchResults(text_input)
         results = sorted(results, key=lambda x: x[-1])
-        return render_template('input_paper.html', 
+        return render_template('home.html', 
                                 searchResults=results,
                                 text_input=text_input,
                                 query=text_input)
     else:
-        return render_template('input_paper.html',
+        return render_template('home.html',
                                 searchResults=None,
                                 text_input='')
 
