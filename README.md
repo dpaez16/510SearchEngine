@@ -1,7 +1,7 @@
 # 510SearchEngine
 
 To run locally, first download the following files (after cloning the repo):  
-(reduced dataset link here)  
+https://drive.google.com/open?id=1srX0nqtbKLFYHhDyaPHTP1GhnslJ3lst  
 
 Extract their contents, then run:
 ```
@@ -10,15 +10,15 @@ python3 create_data_files.py
 The above script will create all necessary files (including the inverted index) for the search engine to work.  
 Finally, run the web app with:
 ```
-python3 app.py
+sudo python3 app.py
 ```
-It should run on ```localhost:5000```.  
+It should run on ```localhost:80```.  
 
 
 Note: ```relevance_judgements.log``` is what the web app will use to log user clicks/doesn't click to (as relevance judgements).
 
 # Deployment
-We have depoyed the search engine, and it can be accessed by going to (EC2 link here).
+We have depoyed the search engine, and it can be accessed by going to [3.19.232.111](3.19.232.111).
 
 # System Description
 For our project, we used the meTaPy toolkit. To format the data so we could use the toolkit, we created a .dat file where each file in the dataset is represented as a line. We then use meTaPy to create an inverted index for the data. We used a unigram language model with the stopwords listed in ```stopwords.txt```.
