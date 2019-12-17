@@ -56,6 +56,20 @@ def train_queries(config, q):
 	print('overall results:')
 	print(best_scores)
 
+
+def run_training_ranker(ranker, idx, config_file, q):
+	ev = metapy.index.IREval(config_file)
+	query = metapy.index.Document()
+	vals = []
+	with open(q) as query_file:
+	    for query_num, line in enumerate(query_file):
+	        query.content(line.strip())
+	        results = ranker.score(idx, query, 20)                            
+	        val = ev.ndcg(results, query_num, 20)
+	        vals.append(val)
+	return sum(vals) / len(vals)
+
+
 config = 'citeseer-config.toml'
 q = 'citeseer/citeseer-queries.txt'
 train_queries(config, q)
