@@ -5,9 +5,9 @@ https://drive.google.com/open?id=1srX0nqtbKLFYHhDyaPHTP1GhnslJ3lst
 
 If its zipped, extract the file and move ```citeseer.dat``` in the citeseer folder and run:
 ```
-python3 create_data_files.py
+python3 create_indexes.py
 ```
-The above script will create all necessary files (including the inverted index) for the search engine to work.  
+The above script will create all necessary files (including the inverted and forward indexes) for the search engine to work.  
 Finally, run the web app with:
 ```
 sudo python3 app.py
