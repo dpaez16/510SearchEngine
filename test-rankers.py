@@ -9,6 +9,9 @@ def train_queries(config, q):
 	# First test various jelinek mercer
 
 	scores = {}
+	ranker = metapy.index.Rocchio(fwd = f_index, alpha = alpha, beta = beta, k = 7, initial_ranker = metapy.index.OkapiBM25(k1 = 1.26, b = 0.77777, k3 = 500))
+	print(run_training_ranker(ranker, idx, config, q))
+	"""
 	l = np.linspace(0,1,10)
 	for i in l:
 		title = "jelinek with: " + str(i)
@@ -55,6 +58,7 @@ def train_queries(config, q):
 	print('===============')
 	print('overall results:')
 	print(best_scores)
+	"""
 
 
 def run_training_ranker(ranker, idx, config_file, q):
