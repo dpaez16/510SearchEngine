@@ -19,6 +19,7 @@ corpus = "citeseer.toml" # a configuration file for the corpus specifying its fo
 index = "citeseer-idx" # subfolder of the current working directory to place index files
 
 query-judgements = "citeseer/citeseer-qrels.txt" # file containing the relevance judgments for this dataset
+query-path = "citeseer/citeseer-queries.txt"
 
 stop-words = "lemur-stopwords.txt"
 
@@ -30,15 +31,17 @@ filter = "default-unigram-chain"
 with open('citeseer-config.toml', 'w+') as f:
     f.write(config)
 
-# starts building the inverted index
-print("Creating inverted index ...", end='')
+# starts building the indexes
+print("Creating indexes ...", end='')
 if os.path.exists("citeseer-idx"):
     shutil.rmtree("citeseer-idx")
 
 os.mkdir("citeseer-idx")
 idx = metapy.index.make_inverted_index('citeseer-config.toml')
+fidx = metapy.index.make_forward_index('citeseer-config.toml')
 
 del idx
+del fidx
 
 # do not need this file anymore
 os.remove("citeseer/citeseer.dat")
