@@ -6,6 +6,7 @@ corpus = "citeseer.toml" # a configuration file for the corpus specifying its fo
 index = "citeseer-idx" # subfolder of the current working directory to place index files
 
 query-judgements = "citeseer/citeseer-qrels.txt" # file containing the relevance judgments for this dataset
+query-path = "citeseer/citeseer-queries.txt"
 
 stop-words = "lemur-stopwords.txt"
 
