@@ -34,10 +34,8 @@ def train_queries(config, q):
 	best_scores = {}
 	idx = metapy.index.make_inverted_index(config)
 	f_index = metapy.index.make_forward_index(config)
-	ranker = metapy.index.OkapiBM25()
-	print(run_training_ranker(ranker, idx, config, q))
 	# First test various jelinek mercer
-	"""
+
 	scores = {}
 	l = np.linspace(0,1,10)
 	y = []
@@ -105,7 +103,6 @@ def train_queries(config, q):
 	print('===============')
 	print('overall results:')
 	print(best_scores)
-	"""
 
 def run_training_ranker(ranker, idx, config_file, q):
 	ev = metapy.index.IREval(config_file)
