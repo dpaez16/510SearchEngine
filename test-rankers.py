@@ -1,7 +1,6 @@
 import metapy
 import pytoml
 import numpy as np
-
 def train_queries(config, q):
 	scores = {}
 	best_scores = {}
