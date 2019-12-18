@@ -16,7 +16,8 @@ def performSearch(q, number_of_results, ranker):
     return searchResults
 
 fidx = metapy.index.make_forward_index('citeseer-config.toml')
-ranker = metapy.index.Rocchio(fwd = fidx, alpha = 0.133333, beta = 0.0, k = 7, initial_ranker = metapy.index.OkapiBM25())
+# ranker = metapy.index.Rocchio(fwd = fidx, alpha = 0.133333, beta = 0.0, k = 7, initial_ranker = metapy.index.OkapiBM25())
+ranker = metapy.index.OkapiBM25()
 searchResults = performSearch(sys.argv[1], int(sys.argv[2]), ranker)
 searchResultsFile = open('searchResults.txt', 'w+')
 for docIdx, doc, score in searchResults:
